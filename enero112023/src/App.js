@@ -1,32 +1,12 @@
-import uuid from "react-uuid";
 import "./App.css";
-import Card from "./components/card/Card";
+import DatosApi from "./components/DatosApi";
+import UsandoUseEffect from "./components/UsandoUseEffect";
 
 function App() {
-  const nombres = [
-    {
-      nombre: "Antonio",
-      profesion: "Dev",
-      genero: "masculino",
-    },
-    {
-      nombre: "Carla",
-      profesion: "Front",
-      genero: "femenino",
-    },
-  ];
-
   return (
     <div className="App">
-      <ul>
-        {nombres.map((element) => {
-          return (
-            <li key={uuid()}>
-              <Card nombre={element.nombre} />
-            </li>
-          );
-        })}
-      </ul>
+      {/* <UsandoUseEffect /> */}
+      <DatosApi />
     </div>
   );
 }

@@ -5,7 +5,7 @@ function Card({ nombre }) {
     e.preventDefault();
   }
   return <div>estoy en card y me llamo {nombre}</div>;
-  <button onClick={handleClick}>Cambiar</button>;
+  // <button onClick={handleClick}>Cambiar</button>;
 }
 
 export default Card;
