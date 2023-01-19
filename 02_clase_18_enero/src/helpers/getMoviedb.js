@@ -3,9 +3,13 @@ const getMoviedb = async () => {
   const url =
     "https://api.themoviedb.org/3/discover/movie?&language=es-es&sort_by=popularity.desc&api_key=" +
     apikey;
-  const response = await fetch(url);
-  const data = await response.json();
-  return data.results;
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    return data.results;
+  } catch (error) {
+    console.error(error);
+  }
 };
 
 export default getMoviedb;
