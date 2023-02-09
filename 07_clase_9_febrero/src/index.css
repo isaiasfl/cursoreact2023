@@ -1,0 +1,11 @@
+.card {
+  border: 2px solid black;
+  margin-top: 0.75rem;
+}
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  margin-right: 0.5rem;
+}
