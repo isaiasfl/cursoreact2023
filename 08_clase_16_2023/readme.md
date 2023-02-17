@@ -1,5 +1,6 @@
-# PROYECTO PRECIO DE LA LUZ.
+# PROYECTO PRECIO DE LA LUZ. <center>![image info](https://play-lh.googleusercontent.com/4S5picdrlHRKUCDjG9qi9Q54U9D0565UIuTH0SUqtOe05enZHqkeWF_XVXOLN1SEKQ=w240-h480-rw)
 
+</center>
 Deseamos crear una aplicación, para llevar una gestión telemática de la horas baratas de luz, para ello a través de la publica
 (api.preciodelaluz.org) se necesita crear una interfaz con las siguientes características.
 
@@ -19,3 +20,20 @@ Deseamos crear una aplicación, para llevar una gestión telemática de la horas
 - [x] Añadimos un logo en el navbar.
 - [x] Mandar correo con PDF con las 6 horas mas baratas dentro del menu desplegable del nav
 - [x] Utilizar más de un componente de React. Recomendable estructurar con pages, helpers, assets, components, etc.
+
+## --- INSTALACIÓN ---
+
+Entrar en la carpeta de backend y lanzar los comandos:
+
+    npm install
+
+_#Para la ejecución del servidor lanzamos_
+
+    npm run server
+
+_#El servidor se monta en la dirección:_
+localhost:3000/api
+
+    http://localhost:3000/api
+
+_#Sobre esa dirección deberemos hacer la petición fetch._
