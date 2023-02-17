@@ -37,3 +37,5 @@ localhost:3000/api
     http://localhost:3000/api
 
 _#Sobre esa dirección deberemos hacer la petición fetch._
+
+> Profesor: Isaías FL.
