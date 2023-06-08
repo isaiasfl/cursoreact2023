@@ -17,10 +17,9 @@ Por último para levantar la aplicación en modo desarrollador:
 ```ssh
 	npm run dev
 ```
-La aplicación se despliega en la url:
-```ssh
-	http://localhost:5173/
-```
+La aplicación realizada con [vite](https://vitejs.dev/) se despliega en la url:
+
+[https://localhost:5173/](https://localhost:5173/)
 
 ## Mejoras:
 
