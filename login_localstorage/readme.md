@@ -2,7 +2,7 @@
 
 ## Configuración Básica
 
-- Dada una configuración **EMAIL** **PASSWORD** , accederemos a la web de gatitos o gif cuando validemos que dichos datos son correctos y están guardados en el localStorage.
+- Dada una configuración **EMAIL** y **PASSWORD** , accederemos a la web de gatitos o gif cuando validemos que dichos datos son correctos y están guardados en el localStorage.
 - Si los datos no son correctos o simplemente no hay nada almacenado en el localStorage entonces siempre redirecciona a "/" donde aparece el login.
 - Para descargar el repositorio y ejecutarlo recuerda:
 ```ssh
@@ -13,11 +13,14 @@ Acceder a la carpeta login_localstorage
 	cd login_localstorage
 	npm install
 ```
-Por último para levantar la aplicación en modo desarrollador
+Por último para levantar la aplicación en modo desarrollador:
 ```ssh
 	npm run dev
 ```
-
+La aplicación se despliega en la url:
+```ssh
+	http://localhost:5173/
+```
 
 ## Mejoras:
 
