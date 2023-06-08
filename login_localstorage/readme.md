@@ -6,10 +6,11 @@
 - Si los datos no son correctos o simplemente no hay nada almacenado en el localStorage entonces siempre redirecciona a "/" donde aparece el login.
 - Para descargar el repositorio y ejecutarlo recuerda:
 ```ssh
-	git clone git@github.com:isaiasfl/cursoreact2023.git
+	git clone https://github.com/isaiasfl/cursoreact2023.git
 ```
 Acceder a la carpeta login_localstorage
-```ssh	
+```ssh
+	cd login_localstorage
 	npm install
 ```
 Por último para levantar la aplicación en modo desarrollador
