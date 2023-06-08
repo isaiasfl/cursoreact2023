@@ -28,3 +28,4 @@ Implementar con la api de giphy la pages de gatitos.
 	https://giphy.com/
 ```
 
+by [Isaías Fernández](https:/github.com/isaiasfl) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
