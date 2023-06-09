@@ -1,6 +1,8 @@
 import { useContext, useEffect } from "react";
+import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { InfoContext } from "../contexts/contextLogin";
+import GiphySearch from "./GiphySearch";
 
 const Cats = () => {
   const navigate = useNavigate();
@@ -24,8 +26,18 @@ const Cats = () => {
   };
   return (
     <>
-      <div>aquí aparecen las tarjetas Cats</div>;
-      <button onClick={handleCloseSession}>Cerrar la sesión</button>
+      <div className="text-center mt-3 mb-3">
+        <h1>Buscador de gifs a través de Gitphy</h1>
+      </div>
+      <div className="text-end mb-5 mr-5">
+        <Button variant="dark" onClick={handleCloseSession}>
+          Cerrar la sesión
+        </Button>
+      </div>
+
+      <div className="mt-3">
+        <GiphySearch />
+      </div>
     </>
   );
 };
